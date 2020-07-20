@@ -20,7 +20,7 @@ ${remoteUrl}                                                http://10.101.65.75:
 ${ProjectFolderName}                                              IDM_Demo_Smoke_Win8_Chrome
 ${BuildNumber}                                              1
 
-${XmlFile}                          D:\\JenkinsProjectsConfig\\config.xml
+${XmlFile}                          /Users/supun/Documents/supun/local/JenkinsProjectsConfig/config.xml
 ${envirement}                       envb
 ${project}                          idm
 
@@ -41,7 +41,7 @@ Config_Create Screenshots Folder
 
 Config_Finalize the Executed Result
     ${myDate} =     Get Current Date    result_format=%Y%m%d%H%M%S
-    Wait Until Keyword Succeeds     1 min   1 sec   move files      ${EXECDIR}/*.png      D:/JenkinsScreenshots/${ProjectFolderName}/screenshots/BuildNO-${BuildNumber}-${myDate}-${browser}
+    Wait Until Keyword Succeeds     1 min   1 sec   move files      ${EXECDIR}/*.png      /Users/supun/Documents/supun/local/JenkinsProjectsConfig/JenkinsScreenshots/${ProjectFolderName}/screenshots/BuildNO-${BuildNumber}-${myDate}-${browser}
     Wait Until Keyword Succeeds     1 min   1 sec   Close All Browsers
 
 Config_get XML element value
