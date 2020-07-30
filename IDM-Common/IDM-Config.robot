@@ -11,7 +11,7 @@ Library           XML
 
 *** Variables ***
 ${server}          			                                https://uat-portal.fxdms.net/sc/
-${browser}        			                                chrome
+${browser}        			                                safari
 ${delay}          			                                2 second   #Set Selenium Speed
 ${loginUrl}      			                                ${server}/scsrv/starthere
 ${welcomeUrl}    			                                ${server}/up/admin/users-manage.html
