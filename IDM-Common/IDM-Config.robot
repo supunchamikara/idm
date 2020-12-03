@@ -24,6 +24,7 @@ ${XmlFile}                          /Users/fxdmspmotestteam/config/config.xml
 ${ScreenshotFolder}                 /Users/fxdmspmotestteam/JenkinsScreenshots          
 ${envirement}                       envb
 ${project}                          idm
+${device}                           iPhone8Safari
 
 
 *** Keywords ***
